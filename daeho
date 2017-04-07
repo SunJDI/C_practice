@@ -23,4 +23,79 @@ printf("오류"); 
 }
 }  
 
-#include<stdio.h>/*int cc(void){ int a; int b; int re; char c; while(re==1) {  printf("두 수를 띄어쓰기로 입력");  scanf("%d",&a);  scanf("%d",&b);  fflush;  printf("사칙연산 선택(+ - * /)");  scanf("%c",&c);  switch(c) {  case '+' : printf("%d+%d=%d",a,b,a+b);  break;  case '-' : printf("%d-%d=%d",a,b,a-b);  break;  case '*' : printf("%d*%d=%d",a,b,a*b);  break;  case '/' : printf("%d/%d=%d",a,b,a/b);  }   printf("다시 하기:1  끝내기:2") }}*/int main(void){ int a; int b; int re=1; char c;/* printf("두 수를 띄어쓰기로 입력");  scanf("%d",&a);  scanf("%d",&b);  fflush;  printf("사칙연산 선택(+ - * /)");  scanf("%c",&c);  switch(c) {  case '+' : printf("%d+%d=%d",a,b,a+b);  break;  case '-' : printf("%d-%d=%d",a,b,a-b);  break;  case '*' : printf("%d*%d=%d",a,b,a*b);  break;  case '/' : printf("%d/%d=%d",a,b,a/b);  }   /*printf("다시 하기:1  끝내기:2");   scanf("%d",&re);*/ while(re==1) {  printf("\n두 수를 띄어쓰기로 입력");  scanf("%d",&a);  scanf("%d",&b);  fflush;  printf("사칙연산 선택(+ - * /)");  scanf("%c",&c);  switch(c) {  case '+' : printf("%d+%d=%d",a,b,a+b);  break;  case '-' : printf("%d-%d=%d",a,b,a-b);  break;  case '*' : printf("%d*%d=%d",a,b,a*b);  break;  case '/' : printf("%d/%d=%d",a,b,a/b);  }   printf("다시 하기:1  끝내기:2"); }}
+
+
+
+
+
+#include<stdio.h>
+/*int cc(void)
+{
+int a;
+int b;
+int re;
+char c;
+while(re==1) {
+printf("두 수를 띄어쓰기로 입력");
+scanf("%d",&a);
+scanf("%d",&b);
+fflush;
+printf("사칙연산 선택(+ - * /)");
+scanf("%c",&c); 
+switch(c) 
+{
+case '+' : printf("%d+%d=%d",a,b,a+b); 
+break;  
+case '-' : printf("%d-%d=%d",a,b,a-b);  
+break;  
+case '*' : printf("%d*%d=%d",a,b,a*b);
+break;
+case '/' : printf("%d/%d=%d",a,b,a/b); 
+} 
+printf("다시 하기:1  끝내기:2") }
+}*/
+
+
+int main(void){
+int a; 
+int b; 
+int re=1; 
+char c;
+/* printf("두 수를 띄어쓰기로 입력");  
+scanf("%d",&a);
+scanf("%d",&b);
+fflush; 
+printf("사칙연산 선택(+ - * /)");
+scanf("%c",&c); 
+switch(c) {
+case '+' : printf("%d+%d=%d",a,b,a+b); 
+break; 
+case '-' : printf("%d-%d=%d",a,b,a-b);  
+break; 
+case '*' : printf("%d*%d=%d",a,b,a*b);  
+break; 
+case '/' : printf("%d/%d=%d",a,b,a/b); 
+}   
+/*printf("다시 하기:1  끝내기:2");  
+scanf("%d",&re);*/ 
+while(re==1) 
+{  
+printf("\n두 수를 띄어쓰기로 입력"); 
+scanf("%d",&a);
+scanf("%d",&b);
+fflush;
+printf("사칙연산 선택(+ - * /)"); 
+scanf("%c",&c); 
+switch(c) {
+case '+' : printf("%d+%d=%d",a,b,a+b); 
+break;  
+case '-' : printf("%d-%d=%d",a,b,a-b); 
+break;
+case '*' : printf("%d*%d=%d",a,b,a*b);
+break;
+case '/' : printf("%d/%d=%d",a,b,a/b);  
+break;
+}
+printf("다시 하기:1  끝내기:2"); 
+}
+}
