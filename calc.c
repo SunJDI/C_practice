@@ -27,6 +27,6 @@ int main(void)
         break;
       default : printf("오류"); 
     }
-    printf("\n다시하기:1 끝내기:2\n"); 
+    system("pause");
   }
 }
