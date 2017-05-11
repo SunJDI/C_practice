@@ -10,7 +10,9 @@ printf("\n======================================================================
 }
 }
 
-void printfChar(char wea,int a) //계산함수
+
+
+void weather(char wea,int a) //계산함수
 { 
 if(wea== 'R')        //비  
 {
@@ -37,6 +39,9 @@ printf("7분 만큼 늦습니다.");  
 }
 }
 
+
+
+
 int main(void) //메인함수
 { 
 int i; 
@@ -49,6 +54,6 @@ scanf("%d",&num);
 system("cls");
 deco();
 printf("\n"); 
-printfChar(ch,num); 
+weather(ch,num); 
 deco();
 }
