@@ -1,1 +1,5 @@
 fanta 라는 독창적임 함수를 쓰세요
+
+int fanta(){
+printf("ㅎㅇ");
+}
