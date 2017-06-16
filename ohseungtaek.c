@@ -99,6 +99,10 @@ int main(void) //메인함수
   weather(ch,num); 
   deco();
 }
+
+
+
+
 #include <stdio.h>
 int fanta(){ int a,b;    
 	    printf("당신의 한국나이와 만 나이를 계산합니다\n"); 
