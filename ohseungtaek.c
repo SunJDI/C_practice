@@ -99,3 +99,44 @@ int main(void) //메인함수
   weather(ch,num); 
   deco();
 }
+#include <stdio.h>
+int fanta(){ int a,b;    
+	    printf("당신의 한국나이와 만 나이를 계산합니다\n"); 
+	    printf("당신은 몇년생입니까?\n"); 
+	    scanf("%d",&a); 
+	    printf("올해 생일이 지났습니까? 예:1 아니오:0"); 
+	    scanf("%d",&b);
+	    if(b<1){   
+		    printf("한국나이 2018-%d=%d\n",a,2018-a); 
+		    printf("만 나이 2016-%d=%d\n",a,2016-a);
+	    } 
+	    if(b>0){ 
+		    printf("한국나이 2018-%d=%d\n",a,2018-a); 
+		    printf("만 나이 2017-%d=%d\n",a,2017-a); 
+	    } 
+	   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
