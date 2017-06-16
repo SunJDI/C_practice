@@ -136,3 +136,20 @@ int main(void)  
     printf("\n다시하기:1 끝내기:2\n"); 
   }
 }
+
+
+#include<stdio.h>
+int main()
+{
+  int a,b,c,d;
+  for(a=0;a<10;a++)
+  {
+    for(c=10;c>a;c--)
+      printf(" ");
+    for(b=0;b<a+1;b++)
+      printf("* ");
+    printf("\n"); 
+  } 
+  for(d=0;d<5;d++)
+    printf("        *****\n");
+}
