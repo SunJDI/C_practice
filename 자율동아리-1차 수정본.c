@@ -71,6 +71,5 @@ int last_ac(){
 		printf("잘못된 입력입니다. 다시 입력해 주세요\n ");
 		continue;
 	}
-}
-	
+}	
 }
