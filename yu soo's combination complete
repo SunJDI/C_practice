@@ -1,0 +1,29 @@
+#include <stdio.h>
+int substitution();
+int factorial(int n);
+int combinatorics(int n,int r);
+int main()
+{ int n,r;
+  n=substitution();
+  r=substitution(); 
+  printf("%dC%d=%d",n,r,combinatorics(n,r)); 
+  return 0;
+  } 
+int substitution(void)
+{ 
+  int n; 
+  scanf("%d",&n); 
+  return n;
+  }
+int factorial(int n){ 
+  int tmp1; 
+  int out=1; 
+  for (tmp1=1; tmp1<=n; tmp1++) 
+  {  
+    out*=tmp1; 
+    } 
+  n=out;
+  }
+int combinatorics(int n, int r){ 
+  return(factorial(n)/(factorial(n-r)*factorial(r))); 
+  }
