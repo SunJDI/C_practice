@@ -4,7 +4,7 @@ int main()
 int a,b,c,d,e,f; 
 f=0; 
 scanf("%d %d %d %d",&a,&b,&c,&d); 
-  for(e=-2^31;e<=2^31;e++)
+  for(;;)
   {  
     if (e==a || e==b || e==c || e==d)
     {   
