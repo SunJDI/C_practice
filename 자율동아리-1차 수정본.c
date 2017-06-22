@@ -22,6 +22,11 @@ int main(int last)                       //last를끌어다씀
 	  printf("조합에 사용할 두 수를 입력해 주세요\n"); 
 	  n=substitution();                                    //n에substitution을실행시켜나온값을대입
 	  r=substitution();                                    //r에substitution을실행시켜나온값을대입
+	  while (r>n){
+	  	printf("처음 입력 값이 두 번째 입력 값 이상이어야 합니다. \n새로운 값을 입력해 주세요 \n");
+	  	n=substitution();                                    //n에substitution을실행시켜나온값을대입
+	    r=substitution();                                    //r에substitution을실행시켜나온값을대입
+	  }
 	  printf("%dC%d=%d\n",n,r,combinatorics(n,r));         //combinatorics에n,r값을대입시켜나온값을넣는다
 	  last_ac();
 	  
