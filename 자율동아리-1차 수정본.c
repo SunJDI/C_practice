@@ -57,7 +57,7 @@ int combinatorics(int n, int r){                              //combinatorics값
   return(factorial(n)/(factorial(n-r)*factorial(r)));         //factorial에n을넣은값을factorial에n-r값을넣은값과r을넚은값을서롭곱한값으로나눈다
 }
 
-int last_ac(){                                                //main
+int last_ac(){                                                //main  
 	int last;                       
 	int c=1;
 	system("pause");
