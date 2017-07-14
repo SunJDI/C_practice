@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+	int a,b,c,d;
+	scanf("%d",&d);
+	for(a=1;a<d;a++){
+		c=(2*a);
+		for(b=1;b<=c;b++){
+			printf("%d*%d=%d \n",c,b,c*b);
+		}
+		printf("\n");
+	}
+}
+
+#include<stdio.h>
+int main(){
+	int a=0,z;
+	while(a<10 && 0<z<10){
+	for(a=0;a<10;a++)
+	{z=9-a;
+	printf("a= %d z= %d \n",a,z);
+	}
+	}
+}
