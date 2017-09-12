@@ -1,18 +1,19 @@
 #include<stdio.h>
 int main()
-{ 
-int a,b,c,d,e,f; 
-f=0; 
-scanf("%d %d %d %d",&a,&b,&c,&d); 
-  for(;;)
-  {  
-    if (e==a || e==b || e==c || e==d)
-    {   
+{ 
+int a,b,c,d,e,f;
+f=0;
+scanf("%d %d %d %d",&a,&b,&c,&d);
+for(e=-2^23;e<=2^23;e++)
+  {
+  if (e==a || e==b || e==c || e==d)
+    {   
     printf("%d\t",e);
-    f=f+1;  
-    }  
-    if (f==4){
-      break;  
-      } 
-      } 
-      }
+    f=f+1;
+    }
+  if (f==4)
+    {   
+    break;
+    }      
+  }       
+}
