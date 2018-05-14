@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+	int a, b, c, d, e;
+	scanf_s("%d", &a);
+	scanf_s("%d", &b);
+	if (a >= b) {
+		d = b;
+		e = a;
+	}
+	else {
+		d = a;
+		e = b;
+	}
+	for (c = d; c >= 1;) {
+		if (a%c == 0 && b%c == 0) {
+			printf("%d:최대공약수\n%d:최소공배수\n", c,a*b/c);
+			break;
+		}
+		else {
+			c--;
+		}
+	}
+	return 0;
+}
