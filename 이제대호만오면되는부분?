@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+	int a, b;
+	b = 0;
+	int num[100];
+	int c = 0;
+	for (a = 0; a <= 99; a++) {
+		scanf_s("%d", &num[a]);
+		if (num[a]<0) {
+			break;
+		}
+		b += num[a];
+		c++;
+	}
+	printf("E(X):%d(단,정수부분만 출력)", b / c);
+}
